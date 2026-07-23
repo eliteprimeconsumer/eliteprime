@@ -1,1 +1,364 @@
+/* ===========================
+   ELITEPRIME - MAIN STYLES
+=========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+
+    background:#f7f8fb;
+
+    color:#222;
+
+    line-height:1.7;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+/* ================= HEADER ================= */
+
+header{
+
+    background:#ffffff;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    border-bottom:1px solid #ececec;
+
+}
+
+header .container{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    height:80px;
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    font-weight:800;
+
+    color:#0b3d91;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#0b3d91;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+    padding:120px 0;
+
+    text-align:center;
+
+    background:linear-gradient(135deg,#0b3d91,#245edc);
+
+    color:white;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    padding:8px 18px;
+
+    background:rgba(255,255,255,.15);
+
+    border-radius:30px;
+
+    margin-bottom:25px;
+
+    font-size:14px;
+
+}
+
+.hero h1{
+
+    font-size:56px;
+
+    font-weight:800;
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.hero p{
+
+    margin-top:30px;
+
+    font-size:21px;
+
+    max-width:700px;
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+    opacity:.95;
+
+}
+
+/* ================= BUTTON ================= */
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:40px;
+
+    background:#FFD447;
+
+    color:#222;
+
+    text-decoration:none;
+
+    padding:18px 36px;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.btn-dark{
+
+    display:inline-block;
+
+    margin-top:25px;
+
+    background:#0b3d91;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 28px;
+
+    border-radius:8px;
+
+    transition:.3s;
+
+}
+
+.btn-dark:hover{
+
+    background:#072f72;
+
+}
+
+/* ================= FEATURED ================= */
+
+.featured{
+
+    padding:90px 0;
+
+}
+
+.featured h2{
+
+    text-align:center;
+
+    font-size:38px;
+
+    margin-bottom:40px;
+
+}
+
+.card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:45px;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+    font-size:34px;
+
+    margin-bottom:20px;
+
+}
+
+.card p{
+
+    font-size:18px;
+
+    color:#666;
+
+}
+
+/* ================= CATEGORIES ================= */
+
+.categories{
+
+    padding:80px 0;
+
+}
+
+.categories h2{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+    font-size:38px;
+
+}
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.box{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.06);
+
+    transition:.3s;
+
+    text-align:center;
+
+}
+
+.box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.box h3{
+
+    margin:20px 0;
+
+}
+
+/* ================= FOOTER ================= */
+
+footer{
+
+    margin-top:80px;
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:45px;
+
+}
+
+footer p{
+
+    opacity:.8;
+
+    margin:8px 0;
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:40px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+.card{
+
+padding:30px;
+
+}
+
+}
