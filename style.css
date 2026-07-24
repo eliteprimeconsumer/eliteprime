@@ -362,3 +362,106 @@ padding:30px;
 }
 
 }
+/* PRODUCT REVIEW */
+
+table{
+width:100%;
+margin:20px 0;
+border-collapse:collapse;
+}
+
+table td{
+
+padding:15px;
+
+border:1px solid #ddd;
+
+}
+
+ul{
+
+padding-left:20px;
+
+}
+
+li{
+
+margin-bottom:12px;
+
+}
+
+.hero{
+
+box-shadow:0 5px 25px rgba(0,0,0,.15);
+
+}
+
+.card{
+
+transition:.35s;
+
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 30px 60px rgba(0,0,0,.15);
+
+}
+
+.box{
+
+transition:.35s;
+
+}
+
+.box:hover{
+
+transform:translateY(-8px);
+
+}
+
+.btn{
+
+font-size:18px;
+
+}
+
+.btn-dark{
+
+font-size:17px;
+
+}
+
+h1,h2,h3{
+
+line-height:1.3;
+
+}
+
+section{
+
+animation:fadeUp .7s ease;
+
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(30px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
